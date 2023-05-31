@@ -1,0 +1,67 @@
+.habilidades{
+    height: 542px;
+    border-bottom: 1px solid #4aa3e251;
+}
+
+.containerHabilidades{
+    /* background-color: red; */
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.habilit{
+    border: 1px solid #4AABE2;
+    height: 200px;
+    width: 246px;
+    border-radius: 15px;
+    color:#4AABE2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:column;
+    font-size: 32px;
+}
+.textHabilit{
+    display:flex;
+    flex-direction: column;
+    font-size: 16px !important;
+}
+
+.selected{
+    background-color: rgba(15, 30, 42, 1);
+    border: none;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.rodape{
+    background-color: rgba(15, 30, 42, 1);
+    color:#4AABE2;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.rodape span{
+    display: flex;
+    flex-direction: column;
+}
