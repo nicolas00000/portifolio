@@ -1,0 +1,97 @@
+.sectionProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.topLangues{
+    height: 200px;
+    width: 210px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.topLangues span{
+    width: 90%;
+    font-size: 22px;
+}
+
+marquee{
+    color:#4AABE2;
+    font-size: 32px;
+}
+
+.containerProjects{
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.buttonSection{
+    background-color: #1d5dcc85;
+    color: #4AABE2;
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.projects{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 44px;
+    color:#fff;
+    align-items: start;
+    text-align: start;
+}
+
+
+.cardContainer{
+    background-color: #4AABE2;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 260px;
+    height: 360px;
+    border-radius: 15px;
+    background-color:#212529 ;
+}
+
+.closeButton{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+}
+.buttonclose{
+    border-radius: 50%;
+    width:10px ;
+    height: 10px;
+    margin: 3px;
+
+}
+
+.amarelo{
+    background-color: #FFD700;
+}
+.vermelho{
+    background-color: red;
+}
+.verde{
+    background-color: #03fd5f;
+}
