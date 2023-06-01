@@ -67,6 +67,7 @@
 .rodape span{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 
@@ -88,6 +89,7 @@
 @media screen and (max-width: 550px) {
     .cards, .rodape, .habilit{
         width: 90%;
+        padding: 25px;
         flex-direction: column;
         height: auto;
     }
