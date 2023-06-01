@@ -91,8 +91,11 @@
 .carousel-slide {
   display: flex;
   width: 100%;
-  
+  overflow-x:scroll;
   margin-right: 20px;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 
 .card {
