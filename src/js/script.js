@@ -9,6 +9,7 @@
 
     function initHeader() {
         width = window.innerWidth;
+        
         height = window.innerHeight;
         target = {x: width/2, y: height/2};
 
