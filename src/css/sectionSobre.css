@@ -75,3 +75,32 @@ section{
 section{
     border-bottom: 1px solid #4aa3e251;
 }
+
+@media screen and (max-width: 1000px) {
+    .sectionSobre {
+        height: 100%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+    .sobreMim{
+        width: 100%;
+        margin: 0;
+    }
+
+    .fotoPerfil{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    img{
+        width:  100%;
+    }
+    }
