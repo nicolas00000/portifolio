@@ -1,0 +1,59 @@
+.contato-section{
+    display: flex;
+    flex-direction: column;
+    border:0px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato>h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.contato-butons{
+    display:flex;
+    width: 65%;
+    justify-content: space-evenly;
+}
+
+.contato-butons>.title-name>.button{
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #090e16;
+    border-radius: 10px  ;
+    border: 1px solid rgba(0, 140, 255, 0.333);
+    padding: 10px;
+}
+
+.email{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email>span{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contato-butons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email{
+        margin:10px auto;
+    }
+}
