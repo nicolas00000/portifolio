@@ -47,7 +47,7 @@ body{
 .button{
   background-color: rgb(36, 36, 57);
   fill: Solid  rgba(74, 162, 226, 0.1);
-  width: 15%;
+  width: 140px;
   text-align: center;
   border-radius: 15px;
   padding: 10px;
@@ -59,18 +59,19 @@ body{
 .title-name{
   display: flex;
   font-size: 52px;
+  width: auto;
   flex-direction: row;
   color: #3FA0D7;
   font-family: 'Raleway', sans-serif;
 }
 
 .icons{
-  color:#ffffff73;
-  font-size: 20px;
+  color: #ffffff73;
+  font-size: 23px;
   display: flex;
-  align-items: center;
-  
-  z-index:2;
+  align-items: end;
+  z-index: 2;
+  padding-bottom: 8px;
 }
 
 i:hover{
@@ -93,4 +94,47 @@ i:hover{
 .main-title span{
   color: #fff;
   letter-spacing: 17px;
+}
+
+.iconsHome{
+  display: flex;
+}
+
+.ocult{
+  margin: 10px;
+  width: 80px;
+  font-size: 25px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .title-name{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-title span{
+    letter-spacing: 10px;
+  }
+
+  .iconsHome{
+    display: none;
+  }
+  .ocult{
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .ocult{
+    display: none ;
+  }
 }

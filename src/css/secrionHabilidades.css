@@ -1,5 +1,6 @@
 .habilidades{
-    height: 642px;
+    height: 842px;
+    padding: 30px 0px;
     border-bottom: 1px solid #4aa3e251;
     display:flex;
     flex-direction: column;
@@ -18,23 +19,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: blue; */
-    width: 100%;
+    width: 90%;
+    height: 150px;
 }
 
 .habilit{
     border: 1px solid #4AABE2;
-    height: 200px;
-    width: 246px;
+    width: 30%;
+    height: 100%;
     border-radius: 15px;
     color:#4AABE2;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction:column;
-    font-size: 32px;
+    font-size: 30px;
     margin: 10px;
-    padding: 10px;
 }
 .textHabilit{
     display:flex;
@@ -67,4 +67,34 @@
 .rodape span{
     display: flex;
     flex-direction: column;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .containerHabilidades{
+        width: 100%;
+    }
+
+    .bold{
+        font-size: 18px;
+    }
+
+    .habilidades{
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .cards, .rodape, .habilit{
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .bold{
+        font-size: 18px;
+    }
+
 }
