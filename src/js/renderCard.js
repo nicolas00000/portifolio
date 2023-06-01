@@ -14,7 +14,7 @@ const projects = [
     {  title: "Contador de click", description:"Você sabe quantos clicks por segundo seu mouse faz, aqui você pode descobrir de forma gratuita", link:"https://nicolas00000.github.io/click-counter/", url: "click"},
     {  title: "Arrasta e solta", description:"Uma das primeira atividades que fiz, foi ensinado a fazermos um 'drag-and-drop'", link:"https://nicolas00000.github.io/ToDoList/", url: "drag"},
     {  title: "Em breve", description:"", link:"", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2vgRZBfHJoBUXc0kMhlYXkF9fOjSi9w62bEVo7zBcw&s"},
-    {  hidden: "display: ", description:"", link:"", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2vgRZBfHJoBUXc0kMhlYXkF9fOjSi9w62bEVo7zBcw&s"},
+    {  hidden: "visibility: hidden; width:1px !important;", description:"", link:"", url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2vgRZBfHJoBUXc0kMhlYXkF9fOjSi9w62bEVo7zBcw&s"},
 
 ]
 
@@ -23,27 +23,27 @@ function render(){
     const container = document.querySelector(".carousel-slide")
     projects.forEach(element => {
         container.innerHTML += `
-        <div class="card">
+        <div class="card" style="${element.hidden}">
             <div class="closeButton">
                 <span class="vermelho buttonclose"></span>
                 <span class="amarelo buttonclose"></span>
                 <span class="verde buttonclose"></span>
             </div>
 
-            <h4 class="title-card">${element.title}</h4>
+            <h4 class="title-card" style="${element.hidden}">${element.title}</h4>
             
-            <p class="description-card">
+            <p class="description-card" style="${element.hidden}">
                 ${element.description}
             </p>
 
-            <div class="tecnologias">
+            <div class="tecnologias" style="${element.hidden}">
                 <i class="fa-brands fa-css3"></i>
                 <i class="fa-brands fa-square-js"></i>
                 <i class="fa-brands fa-bootstrap"></i>
                 <i class="fa-brands fa-sass"></i>
             </div>
 
-            <a href="${element.link}" class="project-image" style="background-image: url('./src/img/${element.url}.png');">
+            <a href="${element.link}" class="project-image" style="background-image: url('./src/img/${element.url}.png'); ${element.hidden}">
                 <span class='redirection'> 
                     Confira aqui
                 </span>
