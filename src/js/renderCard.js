@@ -54,3 +54,13 @@ function render(){
     `
     });
 }
+
+
+document.querySelectorAll('.btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = btn.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+    });
+});
