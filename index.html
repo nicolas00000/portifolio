@@ -21,8 +21,17 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <a href="#home" class="btn">HOME</a>
+      <a href="#sobre" class="btn">SOBRE</a>
+      <a href="#habilit" class="btn">HABILIDADES</a>
+      <a href="#projects" class="btn">PROJETOS</a>
+      <a href="#contato" class="btn">CONTATO</a>
+    </nav>
+  </header>
   <!-- partial:index.partial.html -->
-  <div id="large-header" class="large-header">
+  <div id="large-header home" class="large-header">
     <div class="name">
       <div class="title-name ">
         <div class="main-title">
@@ -40,12 +49,12 @@
             <i class="fa-brands fa-github"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
-      <div class="buttonSection" onclick="alert()"> Sobre mim</div>
+      <a href="#sobre" class="buttonSection buttonLink"> Sobre mim</a>
     </div>
     <canvas id="demo-canvas" style="position: absolute;">    </canvas>
   </div>
 
-  <section class="sectionSobre">
+  <section class="sectionSobre" id="sobre">
     <div class="container">
       
       <div class="fotoPerfil">
@@ -68,7 +77,7 @@
     </div>
   </section>
 
-  <section class="habilidades">
+  <section class="habilidades" id="habilit">
     <div class="containerHabilidades">
       <div class="cards">
         <div class="habilit">
@@ -108,14 +117,14 @@
       <span>
         Techs que uso no dia a dia
       </span> 
-      <marquee class="langues" direction="left">
+      <div class="langues" direction="left">
         <!-- render JS -->
-      </marquee>
+      </div>
     </div>
 
   </section>
 
-  <section class="sectionProjects">
+  <section class="sectionProjects" id="projects">
     <div class="containerProjects">
       <div class="projects">
         <span class="buttonSection">&#128279 Portfólio</span>
@@ -129,7 +138,7 @@
   </section>
 
   <div id="large-header" class="large-header contato-section">
-      <div class="contato">
+      <div class="contato" id="contato">
         <h1 class="description-contato">&#128236 Fale comigo! </h1>
       </div>
 
@@ -165,7 +174,7 @@
   <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
   <script src="https://kit.fontawesome.com/44fc8d9d55.js" crossorigin="anonymous"></script>
   <script src='./src/js/script.js'></script>
-  <script src="src/js/renderCard.js"></script>
   <script src="src/js/renderBubles.js"></script>
+  <script src="src/js/renderCard.js"></script>
 </body>
 </html>
