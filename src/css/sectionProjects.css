@@ -20,7 +20,7 @@
     font-size: 22px;
 }
 
-marquee{
+.langues{
     color:#4AABE2;
     font-size: 32px;
 }
@@ -57,55 +57,10 @@ marquee{
     text-align: start;
 }
 
-
-
-.closeButton{
-    display: flex;
-    justify-content: start;
-    align-items: start;
-}
-.buttonclose{
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    width:10px ;
-    height: 10px;
-
-}
-
-.amarelo{
-    background-color: #FFD700;
-}
-.vermelho{
-    background-color: red;
-}
-.verde{
-    background-color: #03fd5f;
-}
-
-.title-card{
-    text-align: start;
-    color: #3A8EE2;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.description-card{
-    color: rgba(212, 224, 235, 1);
-    text-align: start;
-    margin-top: 10px;
-}
-
 .tecnologias{   
     text-align: start;
     font-size: 25px;
     color: #1293e4;
-}
-
-.project-image{
-    background-color: #fff;
-    height: 130px;
-    border-radius: 10px;
 }
 
 @media screen and (max-width: 1000px) {

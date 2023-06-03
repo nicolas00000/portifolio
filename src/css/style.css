@@ -138,3 +138,48 @@ i:hover{
     display: none ;
   }
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+#home,
+#sobre,
+#habilidades,
+#projetos,
+#contato{
+  animation: fadeIn 0.5s ease;
+}
+
+header {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  padding: 10px !important;
+  position: fixed;
+  background-color: #090e16d7 !important;
+  z-index: 3;
+}
+
+nav{
+  width: 90%;
+  display: flex !important;
+  align-items: center;
+  padding: 5px !important;
+  justify-content: space-around !important;
+  border-radius: 15px;
+}
+
+nav>a{
+  color: white;
+}
+
+nav>a:hover{
+  color: #0d4585;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.buttonLink{
+  cursor: pointer;
+  z-index: 2;
+}
