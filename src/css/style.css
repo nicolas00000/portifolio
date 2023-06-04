@@ -149,6 +149,9 @@ i:hover{
 #contato{
   animation: fadeIn 0.5s ease;
 }
+#home{
+  height: 100%;
+}
 
 header {
   width: 100%;
