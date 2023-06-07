@@ -1,4 +1,5 @@
 const projects = [
+    {  title: "Pagina de login", description:"Criei uma tela de login segura para autenticação de usuários com email e senha e podendo se cadastrar", link:"login-page/", url: "login"},
     {  title: "Previsão do tempo", description:"Desenvolvi uma interface facil e intuitiva para pesquisa de previsão do tempo para qualquer cidade do mundo", link:"weather-app/", url: "weater"},
     {  title: "Pokedex", description:"Utilizando uma api gratuita, desenvolvi uma pokedex, onde cada pokemon possui um ID que pode ser buscado", link:"pokemon/", url: "pokedex"},
     {  title: "Clone Whatsapp", description:"Chat em tempo real, usando uma API de um projeto da DRIVEN, fiz o meu proprio Whatsapp", link:"whatsApp-clone/", url: "whats"},
